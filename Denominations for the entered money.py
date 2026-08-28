@@ -1,0 +1,22 @@
+a=int(input("Enter money"))
+twothousand=int(a//2000)
+a%=2000
+five100=int(a//500)
+a%=500
+two200=int(a//200)
+a%=200
+one100=int(a//100)
+a%=100
+fifty=int(a//50)
+a%=50
+twenty=int(a//20)
+a%=20
+ten=int(a//10)
+a%=10
+print('2000=',twothousand)
+print('500=',five100)
+print('200=',two200)
+print('100=',one100)
+print('50=',fifty)
+print('10=',ten)
+
